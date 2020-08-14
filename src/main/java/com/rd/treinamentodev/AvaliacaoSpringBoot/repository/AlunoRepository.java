@@ -8,6 +8,5 @@ import java.util.List;
 
 @Repository
 public interface AlunoRepository extends JpaRepository<AlunoEntity, Long> {
-
     List<AlunoEntity> findByCpf(String cpf);
 }
